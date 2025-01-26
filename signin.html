@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta name = "author" content = "J S Karthik"/>
+        <meta name = "description" content = "Sign In Page"/>
+        <title>
+            Sign In
+        </title>
+        <link rel = "stylesheet" href = "../static/style.css?">
+        <style>
+        </style>
+    </head>
+    <body>
+        <form method = "POST">
+            <h4>
+                Username
+            </h4>
+            <input type = "text" name = "username" id = "textinput">
+            <br>
+            <h4>
+                Password
+            </h4>
+            <input type = "password" name = "password" id = "textinput">
+            <br><br>
+            <input type = "submit" name = "signin" value = "Sign In" id = "buttoninput" title = "Sign In">
+            <input type = "submit" name = "signup" value = "Sign Up" id = "buttoninput" title = "Sign Up" style = "margin-left: 180px;">
+        </form>
+        {% with m = get_flashed_messages() %}
+            {% if m %}
+                <p style="margin-left: 20px; color: red">
+                    {{ m[-1] }}
+                </p>
+            {% endif %}
+        {% endwith %}
+    </body>
+</html>

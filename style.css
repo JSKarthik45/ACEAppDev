@@ -1,0 +1,55 @@
+#buttoninput {
+    border-radius: 50px;
+    background-color: rgb(188, 220, 231);
+    color: black;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 0px;
+    margin-left: 20px;
+    margin-right: 2px;
+    
+}
+#buttoninput:hover {
+    background-color: rgb(152, 152, 233);
+    text-decoration: underline;
+    cursor: pointer;
+    width: 101px;
+    height: 31px;
+}
+#textinput {
+    border-radius: 12px;
+    background-color: rgb(159, 185, 194);
+    color: black;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline;
+    margin: 20px;
+}
+#textinput:hover {
+    cursor: text;
+    width: 301px;
+    height: 31px;
+}
+h1, h4, h5 {
+    display: inline-block;
+    margin-left: 15px;
+}
+form {
+    display: inline-block;
+}
+img {
+    margin-left: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline;
+}
+span {
+    width: 300px;
+}

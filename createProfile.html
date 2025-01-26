@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta content="J S Karthik" name="author"/>
+    <meta content="Create Profile Page" name="description"/>
+    <title>
+      Create Profile
+    </title>
+    <link href="../static/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <h3>
+      Create Profile
+    </h3>
+    <form enctype="multipart/form-data" method="POST">
+      
+      <div>
+        <span style="display: inline-block; width: 150px">
+          Mail Id
+        </span>
+        <input id="textinput" name="email" type="email"/>
+      </div>
+      
+      <div>
+        <span style="display: inline-block; width: 150px">
+          Department
+        </span>
+        <input id="textinput" name="dep" type="text"/>
+      </div>
+      
+      <div>
+        <span style="display: inline-block; width: 150px">
+          Github Link
+        </span>
+        <input id="textinput" name="gitlink" type="url"/>
+      </div>
+      
+      <div>
+        <span style="display: inline-block; width: 150px">
+          Description
+        </span>
+        <input id="textinput" name="desc" type="text"/>
+      </div>
+      
+      <div>
+        <span style="display: inline-block; width: 150px">
+          Upload JPEG Profile Picture
+        </span>
+        <input id="textinput" name="profpic" type="file"/>
+      </div>
+      
+      <br/>
+      <div>
+        <input id="buttoninput" type="submit"/>
+        <input id="buttoninput" style="margin-left: 250px;" type="reset"/>
+      </div>
+    </form>
+  </body>
+</html>
